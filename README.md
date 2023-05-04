@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
 
+## Dependencies 
+npm install -g npm@9.6.6
+ng new project-tracker --routing --dry-run
+npm install @angular-devkit/build-angular
+npm install -g firebase-tools
+firebase --version  --checks the current version installed
+firebase login 
+
+## Deployment
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
