@@ -36,7 +36,7 @@ jobs:
           name: dist
           path: dist
       - name: Deploy to Firebase
-        uses: project-tracker-893db/firebase-action@master
+        uses: project-tracker/firebase-action@master
         with: 
           args: deploy --only hosting
         env:
